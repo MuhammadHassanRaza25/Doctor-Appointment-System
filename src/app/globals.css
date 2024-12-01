@@ -6,21 +6,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.serviceBox{
-  transition: all 0.1s ease-in;
-  cursor: pointer;
-}
-.serviceBox:hover{
-  transform: scale(1.06);
-}
-
-/* .heroSection{
-  background-image: url(images/bgstyle3.png);
-  background-size: cover;
-  background-position-y: 15%;
-  background-attachment: fixed;
-} */
-
 .transitionBtn{
   transition: all 0.2s;
 }
@@ -33,6 +18,7 @@ body {
   position: sticky;
   top: 0%;
   background-color: rgb(255, 255, 255);
+  z-index: 99999;
 }
 .link{
   cursor: pointer;
@@ -53,13 +39,31 @@ body {
   width: 100%; /* Final width 100% ho jayega */
 }
 /* Header End */
-
+/* Hero Section Start */
+.heroImgDiv{
+  padding-top: 1%;
+}
 .heroHeading{
   font-size: 40px;
 }
 .heroDesc{
   font-size: 16px;
 }
+/* Hero Section Start */
+/* our services start */
+.serviceBox{
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 6px 0px; */
+}
+.serviceBox:hover{
+  transform: scale(1.06);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 6px 0px;
+}
+/* our services end */
+/* Footer Start */
+ 
+/* Footer End */
 
 /* Responsiveness Start */
 

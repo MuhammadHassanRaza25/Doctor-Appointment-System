@@ -1,8 +1,53 @@
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { IoMdCall } from "react-icons/io";
+import { MdEmail } from "react-icons/md";
+import { FaGlobe } from "react-icons/fa";
+import { FaRegCopyright } from "react-icons/fa";
 
 export default function Footer(){
     return(
-        <div>
-            <h1>This is Footer</h1>
+        <div className="bg-gray-50 border-t px-24 mt-20 pt-5 pb-5">
+            
+            <div className="flex flex-wrap justify-between items-baseline">
+
+                <div className="flex flex-col mt-5 w-[20vw]">
+                   <h1 className="font-bold text-2xl">QuickHealth</h1>
+                   <p className="mt-5">QuickHealth your fast, easy, and reliable solution for seamless doctor appointments and better healthcare access.</p>
+                    <p className="flex gap-4 mt-3">
+                      <FaFacebook className="text-4xl p-1.5 bg-black text-white hover:text-blue-300 rounded-full"/>
+                      <FaInstagram className="text-4xl p-1.5 bg-black text-white hover:text-blue-300 rounded-full"/>
+                      <FaTwitter className="text-4xl p-1.5 bg-black text-white hover:text-blue-300 rounded-full"/>
+                    </p>
+               </div>
+
+               <div className="flex flex-col mt-5 w-[25vw]">
+                   <h1 className="font-bold text-2xl">About Us</h1>
+                   <p className="mt-5">QuickHealth is an efficient doctor appointment system designed to streamline the process of booking, managing, and tracking appointments. It aims to enhance patient convenience and improve healthcare accessibility through its user-friendly platform.</p>
+               </div>
+   
+               <div className="flex flex-col mt-5 w-[15vw]">
+                   <h1 className="font-bold text-2xl">Our Services</h1>
+                   <p className='mt-5'>24/7 Emergency Care</p>
+                   <p className='mt-2'>Instant Online Consultations</p>
+                   <p className='mt-2'>Dental Care & Hygiene</p>
+                   <p className='mt-2'>Expert Doctors</p>
+                   <p className='mt-2'>Easy Doctor Appointments</p>
+               </div>
+               
+               <div className="flex flex-col mt-5">
+                   <h1 className="font-bold text-2xl">Contact Us</h1>
+                   <p className='flex items-center gap-2 mt-5'><IoMdCall /> +1 321 123-4567</p>
+                   <p className='flex items-center gap-2 mt-2'><MdEmail />  contact@quickhealth.com</p>
+                   <p className='flex items-center gap-2 mt-2'><FaGlobe /> +1 321 123-4567</p>
+               </div>
+           </div>
+
+           <div className='mt-10 border-t-2'>
+              <h1 className='mt-5 flex justify-center items-center gap-1'>CopyRight <FaRegCopyright /> 2025 All rights reserved | This project is made by Muhammad Hassan Raza</h1>
+           </div>
+
         </div>
     )
 }
