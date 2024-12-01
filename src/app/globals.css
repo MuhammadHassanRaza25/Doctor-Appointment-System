@@ -126,15 +126,8 @@ body {
    .heroSection{
     margin-top: 8%;
    }
-  .heroHeading{
-    text-align: center;
-  }
   .heroDesc{
     font-size: 15px;
-  }
-  .heroBtnDiv{
-     display: flex;
-     justify-content: center;
   }
   .heroBtn{
     font-size: 15px;
@@ -142,15 +135,14 @@ body {
   .heroDesc{
     font-size: 15px;
     width: 100%;
-    text-align: center;
   }
   .heroImgDiv{
     width: 100% !important;
     margin-top: 5%;
   }
   .heroImg{
-    height: 65vh;
-    width: 65%;
+    height: 60vh;
+    width: 100%;
     margin: 0 auto;
   }
 }
@@ -174,14 +166,6 @@ body {
   .heroBtn{
     font-size: 15px;
   }
-  .heroImgDiv{
-    width: 100% !important;
-  }
-  .heroImg{
-    height: 50vh;
-    width: 100%;
-    margin: 0 auto;
-  }
   .seviceDiv1{
     padding-left: 5%;
     padding-right: 5%;
@@ -195,12 +179,22 @@ body {
   }
 }
 @media(max-width:640px){
+  .heroSection{
+    margin-top: 15%;
+    padding-right: 6%;
+    padding-left: 6%;
+  }
   .heroHeading{
     font-size: 30px;
   }
   .heroDesc{
     font-size: 13px;
     width: 100% !important;
+  }
+  .heroImg{
+    height: 40vh;
+    width: 100%;
+    margin: 0 auto;
   }
 }
 @media(max-width:560px){
@@ -211,15 +205,17 @@ body {
     width: 30px;
   }
   .heroSection{
-    margin-top: 10%;
     display: flex;
     flex-direction: column !important;
     align-items: center;
     padding-right: 6%;
     padding-left: 6%;
   }
+  .heroDetail{
+    gap: 25px;
+  }
   .heroHeading{
-    font-size: 20px;
+    font-size: 24px;
   }
   .heroDesc{
     font-size: 12px;
@@ -227,6 +223,14 @@ body {
   .heroBtn{
     font-size: 12px;
     padding: 10px;
+  }
+  .heroBtn{
+    font-size: 14px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 7px;
   }
   .heroImg{
     height: 30vh;
