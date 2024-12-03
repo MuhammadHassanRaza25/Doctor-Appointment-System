@@ -12,7 +12,7 @@ export default function Header() {
     };
 
     return (
-        <div className="header flex justify-between px-6 sm:px-24 p-3 border-b">
+        <div className="header flex justify-between px-6 sm:px-24 p-4 border-b">
             
             <h1 className="logoTxt flex gap-2 items-center text-black font-bold">
                 <span className="logoImg w-10"><Image src={logo} /></span>

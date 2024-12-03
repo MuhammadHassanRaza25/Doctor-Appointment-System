@@ -4,7 +4,7 @@ import DoctorImage from "../images/doctor.jpg"
 export default function HeroSection(){
     return(
        <>
-           <div className="heroSection mt-28 flex px-24 justify-between items-center bg-white">
+           <div className="heroSection pt-28 pb-36 flex px-24 justify-between items-center">
               
               <div className="heroDetail flex flex-col gap-9">
                  <h1 className="heroHeading font-bold">Welcome to QuickHealth</h1>
@@ -19,8 +19,8 @@ export default function HeroSection(){
 
               <div className="heroImgDiv">
                  <Image    
-                  className="heroImg object-cover object-center rounded-xl h-[50vh]"
-                  width={490} 
+                  className="heroImg object-cover object-center rounded-xl h-[51vh]"
+                  width={500} 
                   src={DoctorImage}
                   alt="Doctor Image"/>
               </div>

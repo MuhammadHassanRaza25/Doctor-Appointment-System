@@ -5,10 +5,12 @@ import { IoMdCall } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import { FaGlobe } from "react-icons/fa";
 import { FaRegCopyright } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Footer(){
     return(
-        <div className="bg-gray-50 border-t px-24 mt-20 pt-5 pb-5">
+        <div className="bg-white border-t px-24 mt-20 pt-5 pb-5">
             
             <div className="flex flex-wrap justify-between items-baseline">
 
@@ -45,7 +47,10 @@ export default function Footer(){
            </div>
 
            <div className='mt-10 border-t-2'>
-              <h1 className='mt-5 flex justify-center items-center gap-1'>CopyRight <FaRegCopyright /> 2025 All rights reserved | This project is made by Muhammad Hassan Raza</h1>
+              <div className="mt-5 flex justify-between">
+                <h2 className='flex justify-center text-sm items-center gap-1'>CopyRight <FaRegCopyright /> 2025 All rights reserved | This project is made by Muhammad Hassan Raza</h2>
+                <Link href={"https://github.com/MuhammadHassanRaza25"} target="_blank"><FaGithub /></Link>
+              </div>
            </div>
 
         </div>
