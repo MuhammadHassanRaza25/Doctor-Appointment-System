@@ -10,7 +10,7 @@ import Link from "next/link";
 
 export default function Footer(){
     return(
-        <div className="bg-white border-t px-24 mt-20 pt-5 pb-5">
+        <div className="bg-gray-50 border-t px-24 mt-20 pt-5 pb-5">
             
             <div className="flex flex-wrap justify-between items-baseline">
 

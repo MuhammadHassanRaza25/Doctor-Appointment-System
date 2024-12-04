@@ -12,8 +12,8 @@ export default function HeroSection(){
                      QuickHealth is an online platform that allows users to find doctors and book appointments effortlessly. It provides a seamless way to connect with healthcare professionals and manage medical consultations, ensuring convenience, reliability, and timely access to quality care. This platform is created to enhance your healthcare experience with ease and efficiency.
                    </p>
                  <div className="heroBtnDiv flex gap-5">
-                    <button className="heroBtn bg-blue-600 text-white px-5 py-2.5 font-bold rounded-lg hover:bg-blue-500">Find Doctors</button>
-                    <button className="heroBtn border border-green-600 bg-white text-green-600 px-5 py-2.5 font-bold rounded-lg">Apply as Doctor</button>
+                    <button className="heroBtn bg-blue-600 text-white px-5 py-2.5 font-bold rounded-lg hover:bg-blue-700">Find Doctors</button>
+                    <button className="heroBtn border border-green-600 bg-white text-green-700 hover:bg-green-50 px-5 py-2.5 font-bold rounded-lg">Apply as Doctor</button>
                  </div>
               </div>
 

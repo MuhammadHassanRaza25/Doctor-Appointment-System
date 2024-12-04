@@ -73,7 +73,7 @@ export default function Header() {
                 <h1 className="link font-semibold text-gray-500 hover:text-gray-700 relative group">
                     Contact Us
                 </h1>
-                <button className="bg-blue-500 text-white hover:bg-green-500 hover:text-white px-4 py-1.5 rounded-md font-bold">
+                <button className="bg-blue-500 text-white hover:bg-blue-600 hover:text-white px-4 py-1.5 rounded-md font-bold">
                     Login
                 </button>
             </div>
@@ -96,7 +96,7 @@ export default function Header() {
                     <h1 className="link font-semibold text-gray-500 hover:text-gray-700 p-3 relative group">
                         Contact Us
                     </h1>
-                    <button className="bg-blue-500 text-white hover:bg-green-500 hover:text-white w-32 py-3 rounded-md font-bold mt-3 mb-3">
+                    <button className="bg-blue-500 text-white hover:bg-blue-600 hover:text-white w-32 py-3 rounded-md font-bold mt-3 mb-3">
                         Login
                     </button>
                 </div>
