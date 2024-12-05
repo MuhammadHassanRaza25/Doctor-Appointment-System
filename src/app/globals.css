@@ -44,7 +44,7 @@ body {
   padding-top: 1%;
 }
 .heroHeading{
-  font-size: 40px;
+  font-size: 38px;
 }
 .heroDesc{
   font-size: 16px;
@@ -166,6 +166,9 @@ body {
   .heroHeading{
     font-size: 33px;
   }
+  .heroHeartImage{
+    width: 10%;
+  }
   .heroDesc{
     font-size: 17px;
     width: 100% !important;
@@ -238,7 +241,8 @@ body {
     gap: 25px;
   }
   .heroHeading{
-    font-size: 24px;
+    font-size: 22px;
+    gap:5px;
   }
   .heroDesc{
     font-size: 12px;
@@ -290,6 +294,28 @@ body {
 @media(max-width:430px){
   .cIcon{
     font-size: 20px;
+  }
+  .heroHeading{
+    font-size: 21px;
+  }
+  .heroHeartImage{
+    width: 12%;
+  }
+}
+@media(max-width:350px){
+  .heroHeading{
+    font-size: 18px;
+  }
+  .heroHeartImage{
+    width: 12%;
+  }
+  .heroBtn{
+    font-size: 11px;
+    padding-right: 13px;
+    padding-left: 13px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 7px;
   }
 }
 /* Responsiveness End */
