@@ -229,9 +229,9 @@ body {
     display: flex;
     flex-direction: column !important;
     align-items: center;
-    padding-right: 6%;
-    padding-left: 6%;
-    padding-top: 15%;
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-top: 18%;
     padding-bottom: 15%;
   }
   .heroDetail{
