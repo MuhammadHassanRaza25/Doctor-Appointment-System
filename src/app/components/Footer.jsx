@@ -49,7 +49,7 @@ export default function Footer(){
            <div className='mt-10 border-t-2'>
               <div className="copyRightDiv mt-5 flex flex-wrap justify-between">
                 <h2 className='copyRightTxt flex justify-center text-sm items-center gap-1'>CopyRight <FaRegCopyright className="cIcon" /> 2025 All rights reserved | This project is made by Muhammad Hassan Raza</h2>
-                <Link href={"https://github.com/MuhammadHassanRaza25"} target="_blank"><FaGithub className="text-xl hover:text-blue-300 rounded-full"/></Link>
+                <Link href={"https://github.com/MuhammadHassanRaza25"} target="_blank"><FaGithub className="text-xl hover:text-blue-400 rounded-full"/></Link>
               </div>
            </div>
 

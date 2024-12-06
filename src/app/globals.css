@@ -62,6 +62,10 @@ body {
 }
 /* our services end */
 
+/* Our Doctors Section Start */
+
+/* Our Doctors Section End */
+
 /* Responsiveness Start */
 
 @media(max-width:1280px){
@@ -187,6 +191,9 @@ body {
   .serviceBox{
     height: 25vh;
   }
+  .ourDoctorsHeading{
+    font-size: 20px;
+  }
   .copyRightDiv {
     display: flex;
     flex-direction: column;
@@ -215,6 +222,10 @@ body {
     height: 40vh;
     width: 100%;
     margin: 0 auto;
+  }
+  .docHeadingBtnParent{
+    padding-right: 6%;
+    padding-left: 6%;
   }
   .footerConatiner{
     padding-left: 5%;
@@ -275,6 +286,12 @@ body {
     height: 25vh;
     margin-bottom: 5%;
   }
+  .ourDoctorsHeading{
+    font-size: 18px;
+  }
+  .seeAllBtn{
+    font-size: 12px;
+  }
   .fDiv1{
     margin-bottom: 5%;
   }
@@ -300,6 +317,9 @@ body {
   }
   .heroHeartImage{
     width: 12%;
+  }
+  .ourDoctorsHeading{
+    font-size: 13.5px;
   }
 }
 @media(max-width:350px){
