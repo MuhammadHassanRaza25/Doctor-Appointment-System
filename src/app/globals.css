@@ -330,7 +330,12 @@ body {
     width: 12%;
   }
   .ourDoctorsHeading{
-    font-size: 18.5px;
+    font-size: 20px;
+  }
+}
+@media(max-width:385px){
+  .ourDoctorsHeading{
+    font-size: 18px;
   }
 }
 @media(max-width:350px){
