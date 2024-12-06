@@ -67,7 +67,6 @@ body {
 /* Our Doctors Section End */
 
 /* Responsiveness Start */
-
 @media(max-width:1280px){
   .heroHeading{
     font-size: 36px;
@@ -159,6 +158,9 @@ body {
     width: 100%;
     margin: 0 auto;
   }
+  .ourDoctorsHeading{
+    font-size: 25px;
+  }
 }
 @media(max-width:825px){
   .heroSection{
@@ -227,6 +229,10 @@ body {
     padding-right: 6%;
     padding-left: 6%;
   }
+  .docCardsParent{
+    padding-right: 6%;
+    padding-left: 6%;
+  }
   .footerConatiner{
     padding-left: 5%;
     padding-right: 5%;
@@ -286,11 +292,16 @@ body {
     height: 25vh;
     margin-bottom: 5%;
   }
+  .docHeadingBtnParent{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
   .ourDoctorsHeading{
-    font-size: 18px;
+    font-size: 22px;
   }
   .seeAllBtn{
-    font-size: 12px;
+    width: 100%;
   }
   .fDiv1{
     margin-bottom: 5%;
@@ -319,7 +330,7 @@ body {
     width: 12%;
   }
   .ourDoctorsHeading{
-    font-size: 13.5px;
+    font-size: 18.5px;
   }
 }
 @media(max-width:350px){
@@ -336,6 +347,9 @@ body {
     padding-top: 8px;
     padding-bottom: 8px;
     border-radius: 7px;
+  }
+  .ourDoctorsHeading{
+    font-size: 15px;
   }
 }
 /* Responsiveness End */

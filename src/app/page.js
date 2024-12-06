@@ -19,7 +19,7 @@ export default function Home() {
             <button className="seeAllBtn bg-blue-500 text-white hover:bg-blue-600 hover:text-white px-4 py-1.5 rounded-md">See All</button>
           </div>
 
-          <div className="px-24 mt-10">
+          <div className="docCardsParent px-24 mt-10">
             <DoctorCard/>
           </div>
 
