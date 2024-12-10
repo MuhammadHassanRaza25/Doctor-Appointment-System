@@ -85,11 +85,11 @@ body {
     margin-top: 5%;
   }
   .seviceDiv2{
-    margin-top: 0%;
+    margin-top: -2%;
   }
   .serviceBox{
-    width: 30%;
-    height: 30vh;
+    width: 15%;
+    height: 24vh;
     margin-bottom: 5%;
   }
 }
@@ -120,6 +120,11 @@ body {
     padding-top: 8px;
     padding-bottom: 8px;
     border-radius: 7px;
+  }
+  .serviceBox{
+    width: 30%;
+    height: 30vh;
+    margin-bottom: 5%;
   }
   .fDiv1{
     width: 100% !important;
@@ -281,6 +286,12 @@ body {
     width: 100%;
     margin: 0 auto;
   }
+  .seviceDiv1{
+    justify-content: center;
+  }
+  .seviceDiv2{
+    justify-content: center;
+  }
   .servicesSmallHeading{
     margin-bottom: 0%;
   }
@@ -288,7 +299,7 @@ body {
     font-size: 28px;
   }
   .serviceBox{
-    width: 100%;
+    width: 90%;
     height: 25vh;
     margin-bottom: 5%;
   }
